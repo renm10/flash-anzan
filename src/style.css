@@ -1,0 +1,23 @@
+.title {
+    font-size: 75px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: aqua;
+    height: 50vh;
+}
+.buttons-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
