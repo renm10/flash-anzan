@@ -4,7 +4,7 @@ const countDownsec = 3; //Seconds it waits before starting
 let cdcounter = countDownsec; //Counter that counts the wait time
 let i = 0; //counter to go through the list of numbers
 let numberList; //List of Random numbers
-let acttotal; //Total of the list of numbers
+let listtotal; //Total of the list of numbers
 const flashElm = document.getElementById('number-label');
 let flashinterval = null; //interval for flash action
 let cdinterval = null; //interval for countdown
@@ -17,11 +17,14 @@ function startGame() {
     }
     //Create random number list
     numberList = createRandList();
-    acttotal = calcTotal(numberList);
-    alert(acttotal);
+
+    listtotal = calcTotal(numberList); //Calculate total
+    localStorage.setItem("total", listtotal); //Save the total
+    alert(listtotal); //DELETE LATER
     alert("Hit OK If you are Ready!!");
     cdinterval = setInterval(countDown, 1000);
     runFlash();
+    redirectAns();
 }
 
 function flashInterval() {
@@ -30,6 +33,15 @@ function flashInterval() {
 
 function runFlash() {
     setTimeout(flashInterval, 4000);
+}
+
+//Redirect user to answer page
+function jumpToAns() {
+    window.location.href = "answer.html";
+}
+
+function redirectAns() {
+    setTimeout(jumpToAns, 10000);
 }
 
 function countDown() {

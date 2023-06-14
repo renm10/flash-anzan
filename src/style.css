@@ -1,23 +1,20 @@
-.title {
-    font-size: 75px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1FFE7;
 }
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200px;
+
+h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    background-color: aqua;
-    height: 50vh;
+    color: #FF82A9;
+    font-size: 100px;
 }
-.buttons-div
-{
+
+.buttons-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
