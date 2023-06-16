@@ -6,6 +6,7 @@ let i = 0; //counter to go through the list of numbers
 let numberList; //List of Random numbers
 let listtotal; //Total of the list of numbers
 const flashElm = document.getElementById('number-label');
+let difflevel; //VALUE of the difficulty level selected by the player in the prev page
 let flashinterval = null; //interval for flash action
 let cdinterval = null; //interval for countdown
 
@@ -15,16 +16,18 @@ function startGame() {
         clearInterval();
         return;
     }
+    //Hide the Button
+    document.getElementById('startbtn').style.display = "none";
+
     //Create random number list
     numberList = createRandList();
 
+    difflevel = localStorage.getItem("difficulty"); //Fetch difficulty data from storage
     listtotal = calcTotal(numberList); //Calculate total
     localStorage.setItem("total", listtotal); //Save the total
-    alert(listtotal); //DELETE LATER
-    alert("Hit OK If you are Ready!!");
-    cdinterval = setInterval(countDown, 1000);
-    runFlash();
-    redirectAns();
+    cdinterval = setInterval(countDown, 1000); //Start count down until actual flash starts
+    runFlash(); //Run the actual flash numbers
+    redirectAns(); //Redirect user to the answer page
 }
 
 function flashInterval() {
