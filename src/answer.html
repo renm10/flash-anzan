@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Screen</title>
     <link rel="stylesheet" href="answerstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <label for="answer">答え：</label>
-        <input type="text" id="ansbtn" name="ans" placeholder="回答を入力してください">
-        <input type="button" value="確認" onclick="checkAns()">
-    </form>
-    <div>
-        <a href="index.html"><button id="">もう一度</button></a>
+    <div class="all-div">
+        <div class="form-div">
+            <form>
+                <input type="text" id="anstextbox" name="ans" placeholder="回答を入力してください">
+                <input type="button" value="確認" id="checkansbtn" onclick="checkAns()">
+            </form>
+        </div>
+        <div class="result-div">
+            <h1 id="resulttext"></h1>
+        </div>
+        <div class="correctans-div">
+            <h5 id="correctanstext"></h5>
+        </div>
+        <div class="restartbtn-div">
+            <a href="index.html"><button id="restartbtn">もう一度</button></a>
+        </div>
     </div>
     <script src="answerscript.js"></script>
 </body>

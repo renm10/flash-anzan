@@ -1,14 +1,20 @@
 function checkAns() {
     listtotal = localStorage.getItem("total"); //Fetch data from storage
-    alert(listtotal);
-    var userans = document.getElementById('ansbtn').value;
-    if (userans == listtotal)
+    var resulttext = document.getElementById('resulttext');
+    var userans = document.getElementById('anstextbox').value;
+    if (userans == '')
     {
-        alert("正解");
+        alert("もう一度入力してください");
+    }
+    else if (userans == listtotal)
+    {
+        resulttext.innerHTML = '正解';
+        document.getElementById('correctanstext').innerHTML = '正しい答え：' + `${listtotal}`;
     }
     else
     {
-        alert("不正解:(")
+        resulttext.innerHTML = '不正解';
+        document.getElementById('correctanstext').innerHTML = '正しい答え：' + `${listtotal}`;
     }
-    document.getElementById('ansbtn').value = ''; //Clear the answer form
+    document.getElementById('anstextbox').value = ''; //Clear the answer form
 }

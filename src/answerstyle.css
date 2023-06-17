@@ -2,4 +2,82 @@
     margin: 0px;
     padding: 0px;
     background-color: #F1FFE7;
+    font-family: 'Shippori Mincho', serif;
 }
+
+.all-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#anstextbox {
+    font-size: 40px;
+    padding: 2px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+#checkansbtn {
+    font-size: 40px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+#checkansbtn:hover {
+    background-color: #FFC0BE;
+}
+
+.result-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+.correctans-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.restartbtn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#restartbtn {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #FFC0BE;
+}
+
+
+

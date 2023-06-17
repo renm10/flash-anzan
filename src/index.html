@@ -5,68 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flash Anzan</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap" rel="stylesheet">
     <h1 id="gametitle">フラッシュ暗算</h1>
-    <table>
-        <tr>
-          <th>級段位</th><th>桁数</th><th>口数</th><th>時間</th>
-        </tr>
-        <tr>
-          <td>五段</td><td>３桁</td><td>１０口</td><td>７秒</td>
-        </tr>
-        <tr>
-            <td>四段</td><td>３桁</td><td>８口</td><td>６秒</td>
-        </tr>
-        <tr>
-            <td>三段</td><td>３桁</td><td>６口</td><td>５秒</td>
-        </tr>
-        <tr>
-            <td>二段</td><td>３桁</td><td>４口</td><td>４秒</td>
-        </tr>
-        <tr>
-            <td>初段</td><td>２桁</td><td>１５口</td><td>１０秒</td>
-        </tr>
-        <tr>
-            <td>一級</td><td>２桁</td><td>１５口</td><td>１３秒</td>
-        </tr>
-        <tr>
-            <td>二級</td><td>２桁</td><td>１２口</td><td>１２秒</td>
-        </tr>
-        <tr>
-            <td>三級</td><td>２桁</td><td>１０口</td><td>１２秒</td>
-        </tr>
-        <tr>
-            <td>四級</td><td>２桁</td><td>８口</td><td>１１秒</td>
-        </tr>
-        <tr>
-            <td>五級</td><td>２桁</td><td>７口</td><td>１０秒</td>
-        </tr>
-        <tr>
-            <td>六級</td><td>２桁</td><td>６口</td><td>９秒</td>
-        </tr>
-        <tr>
-            <td>七級</td><td>２桁</td><td>５口</td><td>８秒</td>
-        </tr>
-        <tr>
-            <td>八級</td><td>２桁</td><td>４口</td><td>７秒</td>
-        </tr>
-        <tr>
-            <td>九級</td><td>２桁</td><td>３口</td><td>６秒</td>
-        </tr>
-        <tr>
-            <td>十級</td><td>２桁</td><td>２口</td><td>４秒</td>
-        </tr>
-    </table>
-    <label for="difficulty">難易度：</label>
-    <select name="difficulty" id="difflist">
-        <option value="select">難易度を選んで下さい</option>
-        <option value="fivedan">五段</option>
-        <option value="fourdan">四段</option>
-        <option value="threedan">三段</option>
-        <option value="twodan">二段</option>
-    </select>
-    <a href="game.html"><button id="gamestartbtn" onclick="sendDiffLvl()">挑戦</button></a>
+    <div class="table-div">
+        <table id="anzantable">
+            <tr>
+            <th>級段位</th><th>桁数</th><th>口数</th><th>時間</th>
+            </tr>
+            <tr>
+            <td>五段</td><td>３桁</td><td>１０口</td><td>７秒</td>
+            </tr>
+            <tr>
+                <td>四段</td><td>３桁</td><td>８口</td><td>６秒</td>
+            </tr>
+            <tr>
+                <td>三段</td><td>３桁</td><td>６口</td><td>５秒</td>
+            </tr>
+            <tr>
+                <td>二段</td><td>３桁</td><td>４口</td><td>４秒</td>
+            </tr>
+            <tr>
+                <td>初段</td><td>２桁</td><td>１５口</td><td>１０秒</td>
+            </tr>
+            <tr>
+                <td>一級</td><td>２桁</td><td>１５口</td><td>１３秒</td>
+            </tr>
+            <tr>
+                <td>二級</td><td>２桁</td><td>１２口</td><td>１２秒</td>
+            </tr>
+            <tr>
+                <td>三級</td><td>２桁</td><td>１０口</td><td>１２秒</td>
+            </tr>
+            <tr>
+                <td>四級</td><td>２桁</td><td>８口</td><td>１１秒</td>
+            </tr>
+            <tr>
+                <td>五級</td><td>２桁</td><td>７口</td><td>１０秒</td>
+            </tr>
+            <tr>
+                <td>六級</td><td>２桁</td><td>６口</td><td>９秒</td>
+            </tr>
+            <tr>
+                <td>七級</td><td>２桁</td><td>５口</td><td>８秒</td>
+            </tr>
+            <tr>
+                <td>八級</td><td>２桁</td><td>４口</td><td>７秒</td>
+            </tr>
+            <tr>
+                <td>九級</td><td>２桁</td><td>３口</td><td>６秒</td>
+            </tr>
+            <tr>
+                <td>十級</td><td>２桁</td><td>２口</td><td>４秒</td>
+            </tr>
+        </table>
+    </div>
+    <div class="diff-div">
+        <select name="difficulty" id="difflist">
+            <option value="select">難易度を選んで下さい</option>
+            <option value="fivedan">五段</option>
+            <option value="fourdan">四段</option>
+            <option value="threedan">三段</option>
+            <option value="twodan">二段</option>
+            <option value="onedan">初段</option>
+            <option value="onekyu">一級</option>
+            <option value="twokyu">二級</option>
+            <option value="threekyu">三級</option>
+            <option value="fourkyu">四級</option>
+            <option value="fivekyu">五級</option>
+            <option value="sixkyu">六級</option>
+            <option value="sevenkyu">七級</option>
+            <option value="eightkyu">八級</option>
+            <option value="ninekyu">九級</option>
+            <option value="tenkyu">十級</option>
+        </select>
+        <div class="gamestartbtn-div"><button id="gamestartbtn" onclick="sendDiffLvl()">挑戦</button></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

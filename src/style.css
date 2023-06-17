@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     background-color: #F1FFE7;
+    font-family: 'Shippori Mincho', serif;
 }
 
 h1 {
@@ -18,7 +19,42 @@ table, th, td {
     margin-right: auto;
     font-size: 20px;
 }
+
 th {
     width: 75px;
+}
+
+.table-div {
+    padding-bottom: 40px;
+}
+
+.diff-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamestartbtn-div {
+    padding: 10px;
+}
+
+#difflist
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#gamestartbtn
+{
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 3px;
+    transition-duration: 0.3s;
+}
+
+#gamestartbtn:hover {
+    background-color: #FFC0BE;
 }
 

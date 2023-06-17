@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     background-color: #F1FFE7;
+    font-family: 'Shippori Mincho', serif;
 }
 
 .title {
@@ -21,14 +22,44 @@
     background-color: #f1ffe7;
     height: 50vh;
 }
-.button-div
+
+.start-div
 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.back-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
 #startbtn
 {
-    font-size: 30px;
+    cursor: pointer; /* Pointer/hand icon */
+    width: 200px; /* Set a width if needed */
+    font-size: 45px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+#startbtn:hover {
+    background-color: #FFC0BE;
+}
+
+#backbtn
+{
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100px; /* Set a width if needed */
+    font-size: 20px;
+    padding: 5px;
+    transition-duration: 0.3s;
+}
+
+#backbtn:hover {
+    background-color: #FFC0BE;
 }
