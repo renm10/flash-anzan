@@ -1,11 +1,11 @@
 # フラッシュ暗算アプリ
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/)
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/renm10/flash-anzan/blob/main/README.md)
 
 このウェブアプリは計算能力に長けている方たちを試すべく作られたシンプルなフラッシュ暗算ゲームです。
 
 自分の計算力でどこまで行けるか試してみよう！
 
-##　遊び方
+## 遊び方
 1. 難易度を選ぼう
     1. 全部で１５級段位にわかれています。**１０級**から始まり**５段**まで遊べます。
 2. **挑戦**ボタンを押してゲームを始めよう。
@@ -25,3 +25,9 @@
 ## 追加機能？
 - [ ] 多言語サポート：日本語＋英語のみ
 - [ ] ログイン機能：ユーザーのデータを保存可能
+
+## スクリーンショット
+* ホームページ
+![flash-anzan-hompage](https://github.com/renm10/flash-anzan/assets/43124584/25e3ce16-c9e2-4627-b35b-1fcf1867ff83)
+* 回答ページ
+![flash-anzan-answercheck](https://github.com/renm10/flash-anzan/assets/43124584/c3ec6d25-d0dc-454b-bb23-270de15f6854)

@@ -1,5 +1,5 @@
-# Flash Anzan (Flash Mental Arithmetic App)\
-[![jpn](https://img.shields.io/badge/lang-jpn-red.svg)](https://github.com/)
+# Flash Anzan (Flash Mental Arithmetic App)
+[![jpn](https://img.shields.io/badge/lang-jpn-red.svg)](https://github.com/renm10/flash-anzan/blob/main/README-jp.md)
 
 This is a web app to test math enthusiasts who exceed on calculating simple arithmetic mentally. 
 
@@ -26,3 +26,9 @@ Test your skills and see how far you can get!
 ## Future Additions ?
 - [ ] Multilanguage Support: Japanese + English
 - [ ] Login Feature: Saves users data
+
+## Screenshots
+* Homepage
+![flash-anzan-hompage](https://github.com/renm10/flash-anzan/assets/43124584/25e3ce16-c9e2-4627-b35b-1fcf1867ff83)
+* Answering Page
+![flash-anzan-answercheck](https://github.com/renm10/flash-anzan/assets/43124584/c3ec6d25-d0dc-454b-bb23-270de15f6854)
