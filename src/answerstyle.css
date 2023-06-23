@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
 }
 
 #anstextbox {
@@ -25,6 +26,10 @@
     width: auto;
     height: auto;
     border-radius: 10px;
+}
+
+#anstextbox::placeholder {
+    font-size: 38px;
 }
 
 #checkansbtn {
@@ -47,7 +52,8 @@
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 30vh;
+    white-space: nowrap;
 }
 
 .correctans-div {
