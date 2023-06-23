@@ -32,4 +32,4 @@
 ![flash-anzan-answercheck](https://github.com/renm10/flash-anzan/assets/43124584/c3ec6d25-d0dc-454b-bb23-270de15f6854)
 
 ### デモ
-![flash-anzan-demo](https://github.com/renm10/flash-anzan/assets/43124584/98b328ed-6015-4045-be3b-7343334963b1)
+![flash-anzan-demo](https://github.com/renm10/flash-anzan/assets/43124584/d2ca01b4-878b-49d8-9a45-61c49b391daf)
