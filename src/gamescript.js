@@ -22,9 +22,10 @@ function startGame() {
         clearInterval();
         return;
     }
-    //Hide the Buttons
+    //Hide the Buttons and the cursor
     document.getElementById('startbtn').style.display = "none";
     document.getElementById('backbtn').style.display = "none";
+    document.body.style.cursor = 'none'; 
 
     //Create random number list
     numberList = createRandList();
