@@ -27,9 +27,9 @@
 - [ ] ログイン機能：ユーザーのデータを保存可能
 
 ## スクリーンショット
-![flash-anzan-hompage](https://github.com/renm10/flash-anzan/assets/43124584/25e3ce16-c9e2-4627-b35b-1fcf1867ff83)
+![flash-anzan-hompage](https://github.com/renm10/flash-anzan/assets/43124584/2fb630e9-506b-4482-8d6e-2f5d9af260f7)
 
-![flash-anzan-answercheck](https://github.com/renm10/flash-anzan/assets/43124584/c3ec6d25-d0dc-454b-bb23-270de15f6854)
+![flash-anzan-answercheck](https://github.com/renm10/flash-anzan/assets/43124584/469f94e5-823a-434e-9614-05f8258df420)
 
 ### デモ
 ![flash-anzan-demo](https://github.com/renm10/flash-anzan/assets/43124584/d2ca01b4-878b-49d8-9a45-61c49b391daf)
